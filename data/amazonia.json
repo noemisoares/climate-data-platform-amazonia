@@ -1,0 +1,16 @@
+[
+  { "year": 2010, "temperature": 26.4, "deforestation": 7000 },
+  { "year": 2011, "temperature": 26.3, "deforestation": 6418 },
+  { "year": 2012, "temperature": 26.2, "deforestation": 4571 },
+  { "year": 2013, "temperature": 26.3, "deforestation": 5891 },
+  { "year": 2014, "temperature": 26.4, "deforestation": 5012 },
+  { "year": 2015, "temperature": 26.6, "deforestation": 6207 },
+  { "year": 2016, "temperature": 26.7, "deforestation": 7893 },
+  { "year": 2017, "temperature": 26.6, "deforestation": 6947 },
+  { "year": 2018, "temperature": 26.8, "deforestation": 7536 },
+  { "year": 2019, "temperature": 26.9, "deforestation": 10129 },
+  { "year": 2020, "temperature": 27.0, "deforestation": 10851 },
+  { "year": 2021, "temperature": 27.1, "deforestation": 13038 },
+  { "year": 2022, "temperature": 27.2, "deforestation": 11594 },
+  { "year": 2023, "temperature": 27.3, "deforestation": 9000 }
+]

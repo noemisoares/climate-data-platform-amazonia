@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Plataforma de Dados Climáticos — Amazônia</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22><text y=%2222%22 font-size=%2224%22>🌱</text></svg>"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Plataforma de Dados Climáticos</h1>
+        <p>
+          Integração e visualização de dados públicos sobre mudanças climáticas,
+          com foco no bioma Amazônia, a região com a maior biodiversidade do
+          planeta.
+        </p>
+        <a href="#dados" class="btn">Explorar dados</a>
+      </div>
+      <div class="hero-image"></div>
+    </header>
+
+    <main id="dados">
+      <section class="info-cards">
+        <div class="card">
+          <h3>📊 Dados Integrados</h3>
+          <p>
+            Reunimos diferentes bases públicas em um único formato, facilitando
+            a análise e comparação.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>🌎 Foco em Biomas</h3>
+          <p>
+            A plataforma é validada inicialmente no bioma Amazônia, com
+            possibilidade de expansão.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>📈 Visualização Didática</h3>
+          <p>
+            Gráficos simples e explicativos para tornar os dados acessíveis a
+            diferentes públicos.
+          </p>
+        </div>
+      </section>
+
+      <section class="chart-section">
+        <h2>Temperatura Média Anual</h2>
+        <canvas id="temperatureChart"></canvas>
+      </section>
+
+      <section class="chart-section">
+        <h2>Desmatamento Anual</h2>
+        <canvas id="deforestationChart"></canvas>
+      </section>
+
+      <section class="about-link">
+        <a href="about.html">Saiba mais sobre os dados utilizados →</a>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
